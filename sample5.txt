@@ -1,0 +1,37 @@
+** This is a sample command file for the Anteater BandB, Stage V
+** First, add some bedrooms:
+NB 501
+NB 502
+NB 503
+NB 504
+** Now make some reservations
+RR 503 12/10/2012 12/15/2012 I. Joliet
+rr 502  1/10/2013  1/15/2013 I. Joliet
+rr 502 12/10/2012 12/14/2012 K. Leavenworth
+rr 502 12/10/2013 12/14/2013 K. Leavenworth
+rr 504  2/15/2013 12/14/2013 C. S. Quentin
+LR
+** List reservations for a bedroom
+RB 502
+** List reservations for two guests
+RG K. Leavenworth
+RG C. S. Quentin
+** List everyone arriving December 10, 2012
+LA 12/10/2012
+** List everyone (i.e. nobody) arriving December 9
+LA 12/9/2012
+** List everyone departing December 14, 2013
+LD 12/14/2013
+** List the free rooms when the hotel is empty
+LF 12/20/2012 12/25/2012
+** List the free rooms when some are reserved
+LF 12/12/2012 12/20/2012
+** List the free rooms on a single date
+** (Remember that a room isn't occupied on the night of a departure)
+LF 12/14/2012 12/14/2012
+** List occupied rooms on various dates
+LO 12/14/2012 12/14/2012
+LO 12/12/2012 12/20/2012
+LO 12/20/2012 12/25/2012
+PL Thank you for abusing the Anteater BandB Reservation System!
+** That's the end of the sample data for Stage V.

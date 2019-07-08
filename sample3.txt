@@ -1,0 +1,28 @@
+** This is a sample command file for the Anteater BandB, Stage III
+** First, add some bedrooms:
+NB 301
+NB 302
+nb 303
+** Now make some reservations
+RR 303 10/17/2012 10/19/2012 Conrad Hilton
+RR 303 12/31/2012   1/2/2013 Cesar Ritz
+RR 301 11/3/2012  12/15/2017 Leona Helmsley
+RR 777 1/1/2012     1/2/2012 Ian Schrager
+LR
+** Next, delete one:
+DR 2
+** And show the list reflecting the deletion:
+PL List of reservations after deleting one:
+LR
+** Now try to delete that one again (which should give an error):
+DR 2
+** Now add another two reservations:
+RR 302 1/1/2013  2/15/2013 Howard Johnson
+RR 303 11/25/2012 11/30/2012 Sultan of Brunei
+** And try two more bogus deletions:
+DR 2
+DR 17
+** Finally, list the remaining reservations:
+LR
+PL Thank you for perusing the Anteater BandB Reservation System!
+** That's the end of the sample data for Stage III.
