@@ -10,10 +10,10 @@ which will be called the Anteater BandB.
 
 
 NB
-  (for "add a new bedroom") followed by an integer room number (in the range 1–999). Add a new bedroom with the specified room number.
+	(for "add a new bedroom") followed by an integer room number (in the range 1–999). Add a new bedroom with the specified room number.
 LB
-  (for "list bedrooms"). Print a list of the bedrooms currently available. The input file may contain any number of these commands in any 
-  order; each LB command prints a list of available bedrooms based on what has been added as of that point. See the sample output below for 
+	(for "list bedrooms"). Print a list of the bedrooms currently available. The input file may contain any number of these commands in any 
+	order; each LB command prints a list of available bedrooms based on what has been added as of that point. See the sample output below for 
   the format of the printed bedroom list. For this stage, it doesn't matter what order the bedrooms appear in.
 
 PL
